@@ -24,7 +24,7 @@ import com.spring.lc.validator.EmailValidator;
 import com.spring.lc.validator.UserNameValidator;
 
 @Controller
-public class RegistrationController {
+public class RegistrationController { 
 	
 	@Autowired
 	private EmailValidator emailValidator;
